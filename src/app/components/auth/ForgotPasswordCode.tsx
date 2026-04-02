@@ -1,6 +1,6 @@
 import { useState, FormEvent } from "react";
 import { useNavigate, useLocation } from "react-router";
-import { Key } from "lucide-react";
+import { ArrowLeft, Key } from "lucide-react";
 import { IllustrationCard } from "../onboarding/IllustrationCard";
 
 export default function ForgotPasswordCode() {
@@ -19,6 +19,15 @@ export default function ForgotPasswordCode() {
   return (
     <div className="min-h-screen flex items-center justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
       <div className="w-full max-w-[375px]">
+        <div className="mb-4">
+          <button
+            type="button"
+            onClick={() => navigate(-1)}
+            className="inline-flex items-center gap-1 text-[#8B3D15] font-medium hover:text-[#C0622A]"
+          >
+            <ArrowLeft className="w-4 h-4" /> Précédent
+          </button>
+        </div>
         <div className="mb-8">
           <IllustrationCard
             imageUrl="https://images.unsplash.com/photo-1494172961521-33799ddd43a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZXNzYWdlJTIwY29kZXxlbnwxfHx8fDE3NzQ4MzIyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
