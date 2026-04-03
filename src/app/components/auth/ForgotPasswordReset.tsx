@@ -23,7 +23,7 @@ export default function ForgotPasswordReset() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
+    <div className="min-h-screen flex items-start justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
       <div className="w-full max-w-[375px]">
         <div className="mb-4">
           <button
@@ -39,7 +39,6 @@ export default function ForgotPasswordReset() {
             imageUrl="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw4fHxzZWN1cml0eSUyMGxvY2t8ZW58MHx8fHwxNzc0ODMyMjYz&ixlib=rb-4.1.0&q=80&w=1080"
             gradientFrom="#C0622A"
             gradientTo="#8B3D15"
-            overlayText="Nouveau mot de passe"
             height={180}
           />
         </div>

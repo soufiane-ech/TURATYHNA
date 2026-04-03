@@ -14,7 +14,7 @@ export default function ForgotPasswordPhone() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
+    <div className="min-h-screen flex items-start justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
       <div className="w-full max-w-[375px]">
         <div className="mb-4">
           <button
@@ -30,7 +30,6 @@ export default function ForgotPasswordPhone() {
             imageUrl="https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxOXx8Zm9nJTIwbWVtb3J5fGVufDB8fHx8MTc3NDgzMjI2Mw&ixlib=rb-4.1.0&q=80&w=1080"
             gradientFrom="#C0622A"
             gradientTo="#8B3D15"
-            overlayText="Mot de passe oublié ?"
             height={180}
           />
         </div>

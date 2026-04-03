@@ -24,7 +24,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
+    <div className="min-h-screen flex items-start justify-center px-6 py-8" style={{ backgroundColor: "#FAF6EF" }}>
       <div className="w-full max-w-[375px]">
         {/* Illustration Card */}
         <div className="mb-8">
@@ -32,7 +32,6 @@ export default function SignUp() {
             imageUrl="https://images.unsplash.com/photo-1772411535061-0a03d24e3c60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwcGVvcGxlJTIwbW9yb2NjbyUyMGFydGlzYW4lMjBjb21tdW5pdHklMjBjdWx0dXJlfGVufDF8fHx8MTc3NDgxOTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
             gradientFrom="#C0622A"
             gradientTo="#8B3D15"
-            overlayText="TURATHNA"
             height={180}
           />
         </div>

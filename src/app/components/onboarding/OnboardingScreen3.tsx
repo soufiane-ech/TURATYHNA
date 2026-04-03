@@ -10,7 +10,7 @@ export default function OnboardingScreen3() {
       className="min-h-screen flex items-center justify-center"
       style={{ backgroundColor: '#FAF6EF' }}
     >
-      <div className="w-[375px] h-[812px] px-6 py-12 flex flex-col">
+      <div className="w-[375px] h-[812px] px-6 py-12 flex flex-col relative">
         {/* Illustration Card */}
         <div className="mb-8">
           <IllustrationCard
@@ -34,7 +34,7 @@ export default function OnboardingScreen3() {
           </p>
 
           {/* Pagination Dots */}
-          <div className="mb-8">
+          <div className="absolute left-0 right-0 bottom-[110px] flex justify-center">
             <PaginationDots currentStep={3} totalSteps={3} />
           </div>
 
