@@ -30,7 +30,7 @@ export default function ForgotPasswordCode() {
         </div>
         <div className="mb-8">
           <IllustrationCard
-            imageUrl="https://images.unsplash.com/photo-1494172961521-33799ddd43a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZXNzYWdlJTIwY29kZXxlbnwxfHx8fDE3NzQ4MzIyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            imageUrl="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             gradientFrom="#C0622A"
             gradientTo="#8B3D15"
             height={180}
