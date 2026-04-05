@@ -4,7 +4,7 @@ import SignUpScreen from "./components/auth/SignUpScreen";
 import OnboardingScreen1 from "./components/onboarding/OnboardingScreen1";
 import OnboardingScreen2 from "./components/onboarding/OnboardingScreen2";
 import OnboardingScreen3 from "./components/onboarding/OnboardingScreen3";
-import HomeScreen from "./components/auth/HomeScreen";
+import HomePage from "./components/home/HomePage";
 import ForgotPasswordPhone from "./components/auth/ForgotPasswordPhone";
 import ForgotPasswordCode from "./components/auth/ForgotPasswordCode";
 import ForgotPasswordReset from "./components/auth/ForgotPasswordReset";
@@ -48,6 +48,6 @@ export const router = createBrowserRouter([
   },
   {
     path: "/home",
-    Component: HomeScreen,
+    Component: HomePage,
   },
 ]);

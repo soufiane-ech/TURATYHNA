@@ -46,7 +46,7 @@ A modern React application for the Turathna app's onboarding and authentication 
    npm run dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost:5174](http://localhost:5174) in your browser.
 
 ### Build for Production
 
@@ -100,7 +100,6 @@ The app uses a custom Turathna theme with:
 
 This project includes:
 - Components from [shadcn/ui](https://ui.shadcn.com/) (MIT License)
-- Photos from [Unsplash](https://unsplash.com) (Unsplash License)
 
 
   
